@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Nakuru Eco-Pack</title>
+    <link rel="stylesheet" href="styles-products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="logout-container">
+            <a href="logout.php" id="logout-button" title="Logout">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+    </header>
+    <h1>Our Products</h1>
+    <section id="product-info">
+        <p>At Nakuru Eco-Pack, we offer a range of eco-friendly packaging solutions designed to meet the needs of various businesses. Our products are made from sustainable materials, ensuring that you receive high-quality packaging while contributing to a healthier planet. Explore our diverse selection, from sturdy recyclable bags to innovative eco-friendly boxes.</p>
+    </section>
+    <main id="products">
+        <h2>Add New Product</h2>
+        <form action="get_products.php" method="post" id="product-form">
+            <label for="name">Product Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Product Name" required>
+            
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" placeholder="Enter Product Price" required>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description"  placeholder="Type your Product Description"></textarea>
+            
+            <button type="submit">Add Product</button>
+        </form>
+        
+        <h2>Product List</h2>
+        <div id="product-list">
+            <div>
+                <h3>Eco-Friendly Box</h3>
+                <p>Price: Ksh 200</p>
+                <p>A sustainable box made from recycled materials.</p>
+            </div>
+            <div>
+                <h3>Recyclable Bag</h3>
+                <p>Price: Ksh 100</p>
+                <p>A durable and recyclable bag.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact us at: info@nakuruecopack.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nakuru Eco-Pack</title>
+    <link rel="stylesheet" href="styles-contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="logout-container">
+            <a href="logout.php" id="logout-button" title="Logout">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+    </header>
+    <h1>Contact Us</h1>
+    <p>We value your feedback and inquiries! At Nakuru Eco-Pack, we're dedicated to providing excellent customer service and ensuring that your experience with our products is nothing short of exceptional. Whether you have questions about our sustainable packaging solutions, need assistance with an order, or just want to share your thoughts, we're here to help.
+<br>
+        Please feel free to reach out to us using the contact form below, or use the contact details provided. We look forward to hearing from you and will respond to your message as quickly as possible</p>
+    <main>
+        <h2>Get in Touch</h2>
+        <p>For inquiries, please email us at <a href="mailto:info@nakuruecopack.com">info@nakuruecopack.com</a>.</p>
+        <p>Visit us at:</p>
+        <address>
+            Nakuru Eco-Pack<br>
+            123 Green Road<br>
+            Nakuru, Kenya
+        </address>
+
+        <section id="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="send-message.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section id="map">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.20519021797!2d35.9649467!3d-0.1673696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1829f6f367bba6d9%3A0x363c14244dccdde!2sKabarak%20University!5e0!3m2!1sen!2ske!4v1722503715185!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="business-hours">
+            <h2>Business Hours</h2>
+            <p>Monday to Friday: 9:00 AM - 5:00 PM</p>
+            <p>Saturday: 10:00 AM - 3:00 PM</p>
+            <p>Sunday: Closed</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at: info@nakuruecopack.com</p>
+    </footer>
+</body>
+</html>
