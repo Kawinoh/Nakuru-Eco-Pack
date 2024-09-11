@@ -1,0 +1,1 @@
+Welcome to the Eco Pack Project! This initiative focuses on sustainable packaging solutions for a greener future. Join us in our mission to reduce environmental impact through innovative and eco-friendly packaging alternatives. Let's work together towards a more sustainable tomorrow.
